@@ -1,0 +1,15 @@
+.img1
+{
+    float: right;
+
+}
+.img2
+{
+    float:left;
+    margin-right: 10px;
+}
+
+.p2
+{
+    clear:right;
+}

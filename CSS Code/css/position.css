@@ -1,0 +1,51 @@
+
+.container 
+{
+    width: 300px;
+    height: 300px;
+    background-color: grey;
+    margin: 100px;
+    color:white;
+}
+.box {
+    width: 100px;
+    height: 100px;
+}
+
+.first {
+    /* realtive to parent */
+    position: relative;
+    background-color: orange;
+    top: 100px;
+    left: 100px;
+
+}
+
+.second {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: red;
+    z-index: 1;
+    
+}
+
+.third
+{
+    position: absolute;
+    background-color: green;
+    bottom:0;
+    right: 0%;
+}
+
+.fourth
+{
+    position: sticky;
+    background-color: purple;
+    top: 0px;
+}
+
+.spacer
+{
+    height: 400vh;
+}

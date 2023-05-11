@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+:root{
+    --primary-text-color: #000000;
+    --primary-background-color: rgb(109, 109, 109);
+    --secondary-background-color: rgb(138, 138, 138);
+    --container: white;
+}
+
+.main
+{
+    background-color: var(--primary-background-color);
+}
+
+.main h1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: var(--primary-text-color);
+}
+
+.inside-box h2
+{
+    text-align: center;
+    color: var(--primary-text-color);
+    background-color: var(--container);
+}
+
+.inside-box
+{
+    width: 50%;
+    margin: auto auto;
+    text-align: justify;
+    color: var(--primary-text-color);
+    padding: 10px;
+    background-color: var(--secondary-background-color);
+    line-height: 30px;
+}

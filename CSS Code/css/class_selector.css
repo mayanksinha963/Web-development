@@ -1,0 +1,21 @@
+body
+{
+    font-size: 25px;
+}
+#first {
+    color: red
+}
+
+.purple 
+{
+    color: purple;
+}
+
+p:hover{
+    color: black;
+}
+
+.highlight 
+{
+    background-color: yellow;
+}

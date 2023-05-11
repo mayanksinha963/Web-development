@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+    color: white;
+    padding: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.6rem;
+    
+}
+
+.accordian
+{
+    background-color: antiquewhite;
+    color: black;
+    
+    margin-bottom: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.question
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 16px;
+}
+
+.drop
+{
+    width: 20px;
+    margin-right: 16px;
+    transition: transform 0.2s;
+    
+}
+
+.drop.active
+{
+    transform: rotate(-180deg);
+}
+
+.answer
+{
+    background-color: black;
+    color:white;
+    padding:0;
+    padding: 4px 20px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.2s;
+}
+

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/DOM_Manipulation.css">
+    <title>Event Listeners and Handler</title>
+    
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="box" id="box-1" onclick="myfunction()">box-1</div>
+        <div class="box" id="box-2" onmouseover="mouseOver()">box-2</div>
+        <div class="box" id="box-3" onmousemove="mouseMove()">box-3</div>
+        <div class="box" id="box-4"  onkeypress="keyPress()">box-4</div>
+    </div>
+
+    <form action="#">
+        <input type="text" id="nameInput" onkeypress="keyPress()" onkeyup="keyUpevent()" onkeydown="keyDownevent()">
+    </form>
+
+    <script src="JavaScript/Event_listeners_and_handler.js"></script>
+</body>
+</html>

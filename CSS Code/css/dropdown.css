@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.dropdown ul
+{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: green;
+    font-size: 1rem;
+    color: white;
+
+}
+
+.dropdown li{
+    /* width: 250px; */
+    text-align: center;
+    margin: auto auto;
+    padding: 10px;
+}
+
+.dropdown ul li:hover, .active
+{
+    background-color: lightgreen;
+    border-radius: 5%;
+    margin-top: 0px;
+   /* width: 44; */
+    color: black;    
+}
+
+.sub-menu-1
+{
+    display: none;
+}
+
+.sub-menu-1 ul li 
+{
+    text-align: left;
+    
+}
+
+.dropdown ul li:hover .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -10px;
+    background: rgb(239, 239, 239);
+    
+}
+
+.dropdown ul li:hover .sub-menu-1 ul
+{
+    display: block;
+    
+}
+
+.dropdown ul li:hover .sub-menu-1 ul li{
+    border-bottom: 2px dotted white;
+}
+
+.dropdown ul li:hover .sub-menu-1 ul li:last-child
+{
+    border-bottom: 0px;
+}
+
+.sub-menu-2
+{
+    display: none;
+}
+
+.hover-me:hover .sub-menu-2
+{
+    position: absolute;
+    display: block;
+    margin-top: -35px;
+    margin-left: 110px;
+
+}
+
+
+

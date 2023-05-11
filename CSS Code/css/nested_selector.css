@@ -1,0 +1,8 @@
+#whole{
+    color : green;
+    
+}
+
+#whole>p{
+    color : red;
+}

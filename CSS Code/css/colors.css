@@ -1,0 +1,28 @@
+body{
+    font-family: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: Center;
+    color: darkcyan;
+    background-color: lightblue;
+}
+/* A stand for alpha means opacity */
+h1{
+    background-color: rgba(238, 255, 0, 0.5)
+}
+
+h3 {
+    background-color: rgb(255, 0 ,0);
+    color:yellow
+}
+
+/* p {
+    color: rgb(10, 0, 208);
+} */
+article
+{
+    padding :40px, 0;
+    margin: 40px;
+    background-color: black;
+    color: rgb(255,255,255);
+    border-radius: 25px;
+}

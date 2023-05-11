@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
+
+.first
+{
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    /* x- axis  y- axis     blur    color */
+    text-shadow: 2px 2px 3px yellow;
+    /* taking text align of parent shell */
+    /* text-align: inherit; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.second
+{
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    /* x- axis  y- axis     blur    color */
+    text-shadow: 2px 2px 3px yellow, 4px 4px 3px black;
+    /* taking text align of parent shell */
+    /* text-align: inherit; */
+    font-family: 'Silkscreen', cursive;;
+    
+    
+}
+
+  
+
+.third
+{
+    color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    /* x- axis  y- axis     blur    color */
+    text-shadow: 4px 4px 10px black;
+    /* taking text align of parent shell */
+    /* text-align: inherit; */
+}
+p
+{
+    text-indent: 50px;
+    text-align: justify;
+    line-height: 1.6rem;
+    word-spacing: 1.5rem;
+    font-style: italic;
+    
+}
+
+a{
+    text-decoration: none ;
+    text-decoration-line: underline;
+    text-decoration-color: red;
+    text-decoration-style: wavy;
+    font-family: 'Comforter Brush', cursive;
+    font-size: 1.3rem;
+    font-weight: 900;
+
+
+}

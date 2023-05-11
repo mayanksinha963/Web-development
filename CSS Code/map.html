@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map</title>
+</head>
+<body>
+    <h2>JavaScript Map Objects</h2>
+    <p>Creating a Map from an Array</p>
+
+    <div id="demo"></div>
+    <div id="demo1"></div>
+    <div id="demo2"></div>
+    <div id="demo3"></div>
+    <div id="demo4"></div>
+    <div id="demo5"></div>
+    <script>
+        const fruits = new Map([
+            ["apples", 500],
+            ["bananas", 300],
+            ["oranges", 200]
+        ]);
+
+        document.getElementById('demo').innerHTML = fruits.get("apples");
+
+        let text = "";
+
+        for(const x of fruits)
+        {
+            text += x + "<br>";
+        }
+        document.getElementById('demo1').innerHTML = text;
+
+        const fruits1 = new Map();
+
+        fruits1.set("Mayank", 1);
+        fruits1.set("Dhruv", 2);
+        fruits1.set("Saurabh", 3);
+
+        document.getElementById('demo2').innerHTML = fruits1.get("Dhruv");
+        document.getElementById('demo3').innerHTML = fruits1.size;
+        fruits1.delete("Saurabh");
+        document.getElementById('demo4').innerHTML = fruits1.size;
+
+        let text1 = "";
+        fruits1.forEach(function(value, key)
+        {
+            text1 += key + ' = ' + value + "<br>";
+        })
+
+        document.getElementById('demo5').innerHTML = text1;
+
+    </script>
+</body>
+</html>

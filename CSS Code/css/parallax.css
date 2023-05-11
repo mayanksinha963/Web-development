@@ -1,0 +1,16 @@
+.parallax 
+{
+    background-image: url("https://images.unsplash.com/photo-1680640902873-c94f3f05c168?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80");
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.down
+{
+    background-color: red;
+    font-size: 36px;
+    height: 1000px;
+}

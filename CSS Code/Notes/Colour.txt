@@ -1,0 +1,16 @@
+MDN
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/named-color
+
+
+
+WebAim Contrast Checker
+
+https://webaim.org/resources/contrastchecker/
+
+
+
+Coolors
+
+https://coolors.co/
+

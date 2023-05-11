@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    margin: 100px;
+}
+
+main p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.primary-btn:link
+{
+    color:yellow;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.primary-btn:visited
+{
+    color:brown;
+}
+.primary-btn:hover
+{
+    color:red;
+    background-color: black;
+}
+
+.primary-btn:active
+{
+    color: black;
+    background-color: white;
+    border: 4px solid green;
+}
+
+ul li:first-child
+{
+    background-color: violet;
+}
+
+ul li:last-child
+{
+    background-color: black;
+    color:white
+}
+
+/* nth child */
+/* an + b */
+
+/* ul li:nth-child(2n)
+{
+    background-color: green;
+} */
+
+ul li:nth-child(2n+1)
+{
+    background-color: green;
+}
+
+/* ul li:nth-child(4)
+{
+    background-color: green;
+} */
+
+h1::first-letter
+{
+    background-color: red;
+    font-size: 3rem;
+}
+
+p::first-line
+{
+    background-color: black;
+    color:white;
+}
+
+::selection
+{
+    color:greenyellow;
+    background-color: black;
+}
+
+h3::before
+{
+    content: 'any how ';
+}
+
+h3::after
+{
+    content:'*';
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Set Method</title>
+</head>
+<body>
+    <div id="demo"></div>
+    <div id="demo1"></div>
+    <div id="demo2"></div>
+    <div id="demo3"></div>
+    <div id="demo4"></div>
+    <div id="demo5"></div>
+    <div id="demo6"></div>
+    <script>
+        const letters = new Set(["a", "b", "c"]);
+        document.getElementById("demo").innerHTML = letters.size;
+        
+        const letters1 = new Set();
+        letters.add("a");
+        letters.add("b");
+        letters.add("c");
+        letters.add(4);
+
+        document.getElementById("demo1").innerHTML = letters.size;
+        
+
+
+        const letters2 = new Set();
+
+        const a = "a";
+        const b = "b";
+        const c = "c";
+
+        letters2.add(a);
+        letters2.add(b);
+        letters2.add(c);
+
+        document.getElementById('demo2').innerHTML = letters2.size;
+
+        //set takes only unique value;
+
+        const letters3 = new Set();
+
+        letters3.add("a");
+        letters3.add("a");
+        letters3.add("a");
+        letters3.add("b");
+        letters3.add("a");
+        letters3.add("c");
+        letters3.add("c");
+        letters3.add("c");
+        letters3.add("c");
+        letters3.add("c");
+
+        document.getElementById('demo3').innerHTML = letters3.size;
+        
+
+        document.getElementById('demo4').innerHTML = letters3.has("b");
+        document.getElementById('demo5').innerHTML = letters3.has("d");
+        let texte = "";
+        letters3.forEach(element => {
+            texte += element;
+        });
+
+        document.getElementById('demo6').innerHTML = texte;
+    </script>
+</body>
+</html>

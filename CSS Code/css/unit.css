@@ -1,0 +1,23 @@
+main {
+    border : 5px dotted brown;
+    border-radius: 10px ;
+    /* width: 50%; */
+    /* work with screen */
+    width: 50vw;
+}
+
+header{
+    /* relative to parent */
+    font-size: 2em;
+}
+
+p{
+    /* relative to root */
+    font-size: 3rem;
+}
+
+section {
+    border: 5px solid green;
+    /* width: 50%; */
+    /* height: 100vh; */
+}
